@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Colors</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    Colors With Different Shades
+    <!-- https://tailwindcss.com/docs/customizing-colors  -->
+     <div class="container bg-black p-7">
+      <h1 class="text-teal-50">text color</h1>
+      <h1 class="text-teal-100">text color</h1>
+      <h1 class="text-teal-200">text color</h1>
+      <h1 class="text-teal-300">text color</h1>
+      <h1 class="text-teal-400">text color</h1>
+      <h1 class="text-teal-500">text color</h1>
+      <h1 class="text-teal-600">text color</h1>
+      <h1 class="text-teal-700">text color</h1>
+      <h1 class="text-teal-800">text color</h1>
+      <h1 class="text-teal-900">text color</h1>
+      <h1 class="text-teal-950">text color</h1>
+     </div>
+
+    Background Colors
+    <!-- https://tailwindcss.com/docs/background-color -->
+     <div class="container bg-black p-7">
+      <div class="bg-zinc-500">zinc</div>
+      <div class="bg-stone-500">stone</div>
+      <div class="bg-neutral-500">neutral</div>
+      <div class="bg-amber-500">amber</div>
+      <div class="bg-lime-500">lime</div>
+      <div class="bg-emerald-500">emerald</div>
+      <div class="bg-teal-500">teal</div>
+      <div class="bg-cyan-500">cyan</div>
+      <div class="bg-sky-500">sky</div>
+      <div class="bg-indigo-500">indigo</div>
+      <div class="bg-fuchsia-500">fuchsia</div>
+      <div class="bg-rose-500">rose</div>
+     </div>
+
+    Accent color
+    <!-- https://tailwindcss.com/docs/accent-color -->
+     <div class="container bg-black p-7 text-white">
+      <label>
+        <input class="accent-pink-300" type="checkbox"checked>yes
+        <input class="accent-red-500" type="radio">NO
+      </label>
+     </div>
+    Arbitrary  colors
+    <!-- https://tailwindcss.com/docs/customizing-colors#arbitrary-values -->
+     <div class="container bg-black p-7 text-white">
+      <button class="bg-[#1da1f2] text-white px-6 py-2 rounded-md">
+        Arbitrary <br>bg-[#1da1f2]
+      </button>
+     </div>
+  </body>
+</html>
